@@ -1,0 +1,23 @@
+{
+  "name": "cloud-nodejs",
+  "version": "0.0.1",
+  "description": "node.js: Build a Web App using Google Cloud Platform",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/googlesamples/io2015-codelabs"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cookie-session": "^1.1.0",
+    "express": "^4.12.3",
+    "google-cloud": "^0.57.0",
+    "googleapis": "^30.0.0",
+    "jade": "^1.9.2",
+    "multer": "^0.1.8"
+  }
+}
